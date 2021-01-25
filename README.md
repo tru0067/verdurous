@@ -27,7 +27,7 @@ This theme makes use of a palette of 16 base colors (see below), this allows for
 
 ### Gallery
 
-![Vim with several vertical splits](./screenshots/splits.png)
+![Vim with several vertical splits](./gallery/splits.png)
 
 ##### `verdurous.vim`
 
@@ -37,7 +37,7 @@ The verdurous colorscheme for vim. Use `set termguicolors` in your `.vimrc` to u
 
 A small shell script that will simply create a symlink to `~/verdurous/verdurous.vim` within nvim's `~/.config/nvim/colors/` directory. Note that this assumes that you've put the verdurous directory in your home folder, because I am bad at bash.
 
-##### `screenshots`
+##### `gallery`
 
-Contains all the screenshots you see here in this readme!
+Contains all the images you see here in this readme!
 
