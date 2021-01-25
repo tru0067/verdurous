@@ -29,6 +29,8 @@ This theme makes use of a palette of 16 base colors (see below), this allows for
 
 ![Vim with several vertical splits](./gallery/splits.png)
 
+### Files
+
 ##### `verdurous.vim`
 
 The verdurous colorscheme for vim. Use `set termguicolors` in your `.vimrc` to use this theme out of the box. Otherwise, you can use verdurous' 16 color palette with your terminal emulator of choice.
