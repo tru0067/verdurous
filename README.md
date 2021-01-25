@@ -25,6 +25,8 @@ This theme makes use of a palette of 16 base colors (see below), this allows for
 | 14                | `#5BDDD0` | A shiny bright teal                          |
 | 15                | `#F1E6D9` | A slightly creamy white, a recommendation    |
 
+### Gallery
+
 ![Vim with several vertical splits](./screenshots/splits.png)
 
 ##### `verdurous.vim`
