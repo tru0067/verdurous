@@ -85,8 +85,8 @@ hi DiffText     ctermfg=9    ctermbg=NONE cterm=NONE              guifg=#E04F86 
 hi Directory    ctermfg=4    ctermbg=NONE cterm=bold              guifg=#5A89AD guibg=NONE    gui=bold
 hi EndOfBuffer  ctermfg=4    ctermbg=NONE cterm=NONE              guifg=#5A89AD guibg=NONE    gui=NONE
 hi ErrorMsg     ctermfg=15   ctermbg=1    cterm=NONE              guifg=#F1E6D9 guibg=#BF4052 gui=NONE
-hi FoldColumn   ctermfg=15   ctermbg=7    cterm=NONE              guifg=#F1E6D9 guibg=#808892 gui=NONE
-hi Folded       ctermfg=15   ctermbg=7    cterm=NONE              guifg=#F1E6D9 guibg=#808892 gui=NONE
+hi FoldColumn   ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
+hi Folded       ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
 hi IncSearch    ctermfg=0    ctermbg=11   cterm=NONE              guifg=#22262A guibg=#FFFFAF gui=NONE
 hi LineNr       ctermfg=4    ctermbg=NONE cterm=NONE              guifg=#5A89AD guibg=NONE    gui=NONE 
 hi MatchParen   ctermfg=NONE ctermbg=NONE cterm=NONE              guifg=NONE    guibg=NONE    gui=NONE
