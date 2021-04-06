@@ -73,7 +73,7 @@ hi Todo         ctermfg=0    ctermbg=10   cterm=NONE              guifg=#22262A 
 
 " Other common highlight groups.
 hi ColorColumn  ctermfg=NONE ctermbg=8    cterm=NONE              guifg=NONE    guibg=#384048 gui=NONE
-hi Conceal      ctermfg=15   ctermbg=7    cterm=NONE              guifg=#F1E6D9 guibg=#808892 gui=NONE
+hi Conceal      ctermfg=7    ctermbg=NONE cterm=NONE              guifg=#808892 guibg=NONE    gui=NONE
 hi Cursor       ctermfg=NONE ctermbg=NONE cterm=reverse           guifg=NONE    guibg=NONE    gui=reverse
 hi CursorColumn ctermfg=NONE ctermbg=8    cterm=NONE              guifg=NONE    guibg=#384048 gui=NONE
 hi CursorLine   ctermfg=NONE ctermbg=8    cterm=NONE              guifg=NONE    guibg=#384048 gui=NONE
