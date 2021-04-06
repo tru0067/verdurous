@@ -6,8 +6,8 @@ In part inspired by the Flat Love palette by Atomic Tangerine (see [here](https:
 
 This theme makes use of a palette of 16 base colors (see below), this allows for ready compatibility with many terminal based applications.
 
-| ANSI color number | Hex code  | Color                           | Description                                  |
-|------------------:|:----------|:--------------------------------|:---------------------------------------------|
+| ANSI color number | Hex code  | Color                            | Description                                  |
+|------------------:|:----------|:---------------------------------|:---------------------------------------------|
 | 0                 | `#22262A` | ![#22262A](./gallery/22262A.png) | A moderate dark grey with a tinge of blue    |
 | 1                 | `#BF4052` | ![#BF4052](./gallery/BF4052.png) | A deep red                                   |
 | 2                 | `#00AF60` | ![#00AF60](./gallery/00AF60.png) | The basis for this theme, a verdant green    |
@@ -15,7 +15,7 @@ This theme makes use of a palette of 16 base colors (see below), this allows for
 | 4                 | `#5A89AD` | ![#5A89AD](./gallery/5A89AD.png) | A silvery blue, hailing from the Nord theme  |
 | 5                 | `#8558C7` | ![#8558C7](./gallery/8558C7.png) | A royal purple                               |
 | 6                 | `#109191` | ![#109191](./gallery/109191.png) | A fairly standard aqua                       |
-| 7                 | `#808891` | ![#808891](./gallery/808891.png) | A brighter variant of Tomb                   |
+| 7                 | `#808892` | ![#808892](./gallery/808892.png) | A brighter variant of Tomb                   |
 | 8                 | `#384048` | ![#384048](./gallery/384048.png) | Inspired by Tomb of the Flat Love palette    |
 | 9                 | `#E04F86` | ![#E04F86](./gallery/E04F86.png) | A beautiful hot pink, perfect for highlights |
 | 10                | `#80D468` | ![#80D468](./gallery/80D468.png) | A grassy green                               |
