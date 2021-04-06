@@ -7,7 +7,7 @@ In part inspired by the Flat Love palette by Atomic Tangerine (see [here](https:
 This theme makes use of a palette of 16 base colors (see below), this allows for ready compatibility with many terminal based applications.
 
 | ANSI color number | Hex code  | Color                            | Description                                  |
-|------------------:|:----------|:---------------------------------|:---------------------------------------------|
+|------------------:|:---------:|:--------------------------------:|:---------------------------------------------|
 | 0                 | `#22262A` | ![#22262A](./gallery/22262A.png) | A moderate dark grey with a tinge of blue    |
 | 1                 | `#BF4052` | ![#BF4052](./gallery/BF4052.png) | A deep red                                   |
 | 2                 | `#00AF60` | ![#00AF60](./gallery/00AF60.png) | The basis for this theme, a verdant green    |
