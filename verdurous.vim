@@ -51,7 +51,7 @@ hi! link Define    PreProc
 hi! link Macro     PreProc
 hi! link PreCondit PreProc
 
-hi Type	        ctermfg=5    ctermbg=NONE cterm=NONE              guifg=#8558C7 guibg=NONE    gui=NONE
+hi Type         ctermfg=5    ctermbg=NONE cterm=NONE              guifg=#8558C7 guibg=NONE    gui=NONE
 hi! link StorageClass Type
 hi! link Structure    Type
 hi! link Typedef      Type
@@ -117,5 +117,5 @@ hi VertSplit    ctermfg=8    ctermbg=7    cterm=NONE              guifg=#384048 
 hi Visual       ctermfg=NONE ctermbg=NONE cterm=reverse           guifg=NONE    guibg=NONE    gui=reverse
 hi VisualNOS    ctermfg=NONE ctermbg=NONE cterm=reverse,underline guifg=NONE    guibg=NONE    gui=reverse,underline
 hi WarningMsg   ctermfg=11   ctermbg=NONE cterm=NONE              guifg=#FFFFAF guibg=NONE    gui=NONE
-hi Whitespace   ctermfg=8    ctermbg=NONE cterm=NONE              guifg=#384048 guibg=NONE    gui=NONE
+hi Whitespace   ctermfg=8    ctermbg=NONE cterm=NONE              guifg=#000000 guibg=NONE    gui=NONE
 hi WildMenu     ctermfg=0    ctermbg=4    cterm=NONE              guifg=#22262A guibg=#5A89AD gui=NONE
