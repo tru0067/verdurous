@@ -2,9 +2,14 @@
 
 A dark, forest theme.
 
-In part inspired by the Flat Love palette by Atomic Tangerine (see [here](https://www.colourlovers.com/palette/3182748/Flat_love)), which I was happy enough to stumble upon while checking that the name `verdurous` was not already in use. Additional inspiration was derived from the popular Nord colorscheme, as well as from suggestions from friends and family.
+In part inspired by the Flat Love palette by Atomic Tangerine (see
+[here](https://www.colourlovers.com/palette/3182748/Flat_love)), which I was
+happy enough to stumble upon while checking that the name `verdurous` was not
+already in use. Additional inspiration was derived from the popular Nord
+colorscheme, as well as from suggestions from friends and family.
 
-This theme makes use of a palette of 16 base colors (see below), this allows for ready compatibility with many terminal based applications.
+This theme makes use of a palette of 16 base colors (see below), this allows for
+ready compatibility with many terminal based applications.
 
 | ANSI color number | Hex code  | Color                            | Description                                  |
 |------------------:|:---------:|:--------------------------------:|:---------------------------------------------|
@@ -32,14 +37,17 @@ This theme makes use of a palette of 16 base colors (see below), this allows for
 ### Files
 
 ##### `verdurous.vim`
-
-The verdurous colorscheme for vim. Use `set termguicolors` in your `.vimrc` to use this theme out of the box. Otherwise, you can use verdurous' 16 color palette with your terminal emulator of choice.
+The verdurous colorscheme for vim. Use `set termguicolors` in your `.vimrc` to
+use this theme out of the box. Otherwise, you can use verdurous' 16 color
+palette with your terminal emulator of choice.
 
 ##### `deploy_nvim.sh`
+A small shell script that will create a skeleton
+`~/.config/nvim/colors/verdurous.vim` that will simply source
+`~/verdurous/verdurous.vim`. One can then add any of their own changes to the
+system's file.
 
-A small shell script that will simply create a symlink to `~/verdurous/verdurous.vim` within nvim's `~/.config/nvim/colors/` directory. Note that this assumes that you've put the verdurous directory in your home folder, because I am bad at bash.
+Note that this assumes that you've put this repo in your home folder.
 
-##### `gallery`
-
+##### `gallery/`
 Contains all the images you see here in this readme!
-
