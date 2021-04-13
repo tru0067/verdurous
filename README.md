@@ -37,15 +37,18 @@ ready compatibility with many terminal based applications.
 ### Files
 
 ##### `dark/vim.vim`
-The verdurous colorscheme for vim. Use `set termguicolors` in your `.vimrc` to
-use this theme out of the box. Otherwise, you can use verdurous' 16 color
+The verdurous-dark colorscheme for vim. Use `set termguicolors` in your `.vimrc`
+to use this theme out of the box. Otherwise, you can use verdurous' 16 color
 palette with your terminal emulator of choice.
 
-##### `deploy_nvim.sh`
-A small shell script that will create a skeleton
-`~/.config/nvim/colors/verdurous.vim` that will simply source
-`~/verdurous/verdurous.vim`. One can then add any of their own changes to the
-system's file.
+##### `dark/alacritty.yml`
+The verdurous-dark colorscheme for alacritty.
+
+##### `deploy.sh`
+A small shell script that will create a skeleton config files in
+`~/.config/nvim/colors/` and `~/.config/alacritty/` that will simply source the
+files in this repo. One can then add any of their own changes to the system's
+files.
 
 Note that this assumes that you've put this repo in your home folder.
 
