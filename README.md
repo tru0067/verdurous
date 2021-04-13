@@ -58,8 +58,6 @@ A small shell script that will create a skeleton config files in
 files in this repo. One can then add any of their own changes to the system's
 files. Must be run from within this directory.
 
-Note that this script assumes that you've put this repo in your home folder.
-
 ##### `dark/`
 Contains the dark variants of the themes.
 
