@@ -5,6 +5,10 @@ if [[ ! -f ~/.config/nvim/colors/verdurous-dark.vim ]]; then
     printf "source ~/verdurous/dark/vim.vim\n" > ~/.config/nvim/colors/verdurous-dark.vim
     printf "Adding skeleton ~/.config/nvim/colors/verdurous-dark.vim\n"
 fi
+if [[ ! -f ~/.config/nvim/colors/verdurous-light.vim ]]; then
+    printf "source ~/verdurous/light/vim.vim\n" > ~/.config/nvim/colors/verdurous-light.vim
+    printf "Adding skeleton ~/.config/nvim/colors/verdurous-light.vim\n"
+fi
 mkdir -p ~/.config/alacritty
 if [[ ! -f ~/.config/alacritty/verdurous-dark.yml ]]; then
     printf "import:\n  - /home/tru0067/verdurous/dark/alacritty.yml\n" > ~/.config/alacritty/verdurous-dark.yml
