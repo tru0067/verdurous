@@ -48,7 +48,7 @@ The verdurous-dark colorscheme for alacritty.
 A small shell script that will create a skeleton config files in
 `~/.config/nvim/colors/` and `~/.config/alacritty/` that will simply source the
 files in this repo. One can then add any of their own changes to the system's
-files.
+files. Must be run from within this directory.
 
 Note that this assumes that you've put this repo in your home folder.
 
