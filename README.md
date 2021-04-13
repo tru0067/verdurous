@@ -36,7 +36,7 @@ ready compatibility with many terminal based applications.
 
 ### Files
 
-##### `verdurous.vim`
+##### `dark/vim.vim`
 The verdurous colorscheme for vim. Use `set termguicolors` in your `.vimrc` to
 use this theme out of the box. Otherwise, you can use verdurous' 16 color
 palette with your terminal emulator of choice.

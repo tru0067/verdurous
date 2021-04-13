@@ -3,7 +3,7 @@ if exists("syntax_on")
     syntax reset
 endif
 
-let g:colors_name="verdurous"
+let g:colors_name="verdurous-dark"
 set background=dark
 
 " Quick reference palette:
