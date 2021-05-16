@@ -71,6 +71,17 @@ hi Error        ctermfg=1    ctermbg=NONE cterm=NONE              guifg=#BF4052 
 
 hi Todo         ctermfg=0    ctermbg=10   cterm=NONE              guifg=#22262A guibg=#80D468 gui=NONE
 
+" Statusline highlight groups.
+hi User1        ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
+hi User2        ctermfg=15   ctermbg=7    cterm=NONE              guifg=#F1E6D9 guibg=#808892 gui=NONE
+hi User3        ctermfg=15   ctermbg=2    cterm=NONE              guifg=#F1E6D9 guibg=#00AF60 gui=NONE
+hi User4        ctermfg=15   ctermbg=4    cterm=NONE              guifg=#F1E6D9 guibg=#5A89AD gui=NONE
+hi User5        ctermfg=15   ctermbg=5    cterm=NONE              guifg=#F1E6D9 guibg=#8558C7 gui=NONE
+hi User6        ctermfg=15   ctermbg=6    cterm=NONE              guifg=#F1E6D9 guibg=#109191 gui=NONE
+hi User7        ctermfg=0    ctermbg=10   cterm=NONE              guifg=#22262A guibg=#80D468 gui=NONE
+hi User8        ctermfg=0    ctermbg=12   cterm=NONE              guifg=#22262A guibg=#87B4E0 gui=NONE
+hi User9        ctermfg=0    ctermbg=15   cterm=NONE              guifg=#22262A guibg=#F1E6D9 gui=NONE
+
 " Other common highlight groups.
 hi ColorColumn  ctermfg=NONE ctermbg=8    cterm=NONE              guifg=NONE    guibg=#384048 gui=NONE
 hi Conceal      ctermfg=7    ctermbg=NONE cterm=NONE              guifg=#808892 guibg=NONE    gui=NONE
@@ -106,7 +117,7 @@ hi SpellCap     ctermfg=NONE ctermbg=NONE cterm=underline         guifg=NONE    
 hi SpellLocal   ctermfg=NONE ctermbg=NONE cterm=underline         guifg=NONE    guibg=NONE    gui=undercurl guisp=#109191
 hi SpellRare    ctermfg=NONE ctermbg=NONE cterm=underline         guifg=NONE    guibg=NONE    gui=undercurl guisp=#8558C7
 hi StatusLine   ctermfg=15   ctermbg=4    cterm=bold              guifg=#F1E6D9 guibg=#5A89AD gui=bold
-hi StatusLineNC	ctermfg=12   ctermbg=4    cterm=bold              guifg=#87B4E0 guibg=#5A89AD gui=bold
+hi StatusLineNC ctermfg=12   ctermbg=4    cterm=bold              guifg=#87B4E0 guibg=#5A89AD gui=bold
 hi TabLine      ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
 hi TabLineFill  ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
 hi TabLineSel   ctermfg=15   ctermbg=7    cterm=NONE              guifg=#F1E6D9 guibg=#808892 gui=NONE
