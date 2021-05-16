@@ -118,7 +118,7 @@ hi SpellCap     ctermfg=NONE ctermbg=NONE cterm=underline         guifg=NONE    
 hi SpellLocal   ctermfg=NONE ctermbg=NONE cterm=underline         guifg=NONE    guibg=NONE    gui=undercurl guisp=#109191
 hi SpellRare    ctermfg=NONE ctermbg=NONE cterm=underline         guifg=NONE    guibg=NONE    gui=undercurl guisp=#8558C7
 hi StatusLine   ctermfg=15   ctermbg=4    cterm=bold              guifg=#F1E6D9 guibg=#5A89AD gui=bold
-hi StatusLineNC ctermfg=12   ctermbg=4    cterm=bold              guifg=#87B4E0 guibg=#5A89AD gui=bold
+hi StatusLineNC ctermfg=7    ctermbg=4    cterm=bold              guifg=#22262A guibg=#5A89AD gui=bold
 hi TabLine      ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
 hi TabLineFill  ctermfg=15   ctermbg=8    cterm=NONE              guifg=#F1E6D9 guibg=#384048 gui=NONE
 hi TabLineSel   ctermfg=15   ctermbg=7    cterm=NONE              guifg=#F1E6D9 guibg=#808892 gui=NONE
