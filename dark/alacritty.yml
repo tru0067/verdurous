@@ -2,7 +2,6 @@ colors:
   primary:
     background: '#22262A'
     foreground: '#F1E6D9'
-  # Normal colors.
   normal:
     black:   '#22262A'
     red:     '#BF4052'
@@ -12,7 +11,6 @@ colors:
     magenta: '#8558C7'
     cyan:    '#109191'
     white:   '#808892'
-  # Bright colors.
   bright:
     black:   '#384048'
     red:     '#E04F86'
