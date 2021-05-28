@@ -58,9 +58,6 @@ A small shell script that will create a skeleton config files in
 files in this repo. One can then add any of their own changes to the system's
 files. Must be run from within this directory.
 
-##### `common/`
-Contains any setup common to all variants of the theme.
-
 ##### `dark/`
 Contains the dark variants of the themes.
 
