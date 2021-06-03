@@ -66,3 +66,7 @@ Contains the light variants of the themes.
 
 ##### `gallery/`
 Contains all the images you see here in this readme!
+
+### TODO:
+-   Add the firefox theme
+-   Tweak or remove the vim light theme
