@@ -1,10 +1,10 @@
 {
     "manifest_version": 2,
-    "version": "8.0",
+    "version": "8.1",
     "name": "verdurous",
     "theme": {
         "colors": {
-            "button_background_active": "#5A89AD",
+            "button_background_active": "#808892",
             "button_background_hover": "#384048",
             "icons": "#F1E6D9",
             "icons_attention": "#5A89AD",
