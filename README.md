@@ -50,6 +50,18 @@ import:
 ```
 within your `alacritty.yml` to use this theme.
 
+##### Firefox
+The verdurous colorscheme for firefox. Also available at
+<https://addons.mozilla.org/.../verdurous>.
+
+Upload note: In order to be consumable by Mozilla's addon system (AMO), this
+theme will need to be 'packaged'. E.g. with:
+```sh
+cd dark/firefox
+zip -r -FS ../verdurous.zip *
+```
+The `.zip` file can then be uploaded to <https://addons.mozilla.org>.
+
 ### Files
 
 ##### `deploy.sh`
@@ -68,5 +80,4 @@ Contains the light variants of the themes.
 Contains all the images you see here in this readme!
 
 ### TODO:
--   Add the firefox theme
 -   Tweak or remove the vim light theme
