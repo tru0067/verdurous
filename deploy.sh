@@ -1,20 +1,35 @@
 #!/bin/bash
 
+# This deploy script is fairly specialized for my usage. You may wish to edit it
+# for your own use.
+
 mkdir -p ~/.config/nvim/colors
-if [[ ! -f ~/.config/nvim/colors/verdurous-dark.vim ]]; then
-    printf "source ${PWD}/dark/vim.vim\n" > ~/.config/nvim/colors/verdurous-dark.vim
-    printf "Adding skeleton ~/.config/nvim/colors/verdurous-dark.vim\n"
+current_target=~/.config/nvim/colors/verdurous-dark.vim
+if [[ ! -f ${current_target} ]]; then
+    printf "source ${PWD}/dark/vim.vim\n" > ${current_target}
+    printf "Creating skeleton ${current_target}\n"
+else
+    printf "Skipping skeleton ${current_target}\n"
 fi
-if [[ ! -f ~/.config/nvim/colors/verdurous-light.vim ]]; then
-    printf "source ${PWD}/light/vim.vim\n" > ~/.config/nvim/colors/verdurous-light.vim
-    printf "Adding skeleton ~/.config/nvim/colors/verdurous-light.vim\n"
+current_target=~/.config/nvim/colors/verdurous-light.vim
+if [[ ! -f ${current_target} ]]; then
+    printf "source ${PWD}/light/vim.vim\n" > ${current_target}
+    printf "Creating skeleton ${current_target}\n"
+else
+    printf "Skipping skeleton ${current_target}\n"
 fi
 mkdir -p ~/.config/alacritty
-if [[ ! -f ~/.config/alacritty/verdurous-dark.yml ]]; then
-    printf "import:\n  - ${PWD}/verdurous/dark/alacritty.yml\n" > ~/.config/alacritty/verdurous-dark.yml
-    printf "Adding skeleton ~/.config/alacritty/verdurous-dark.yml\n"
+current_target=~/.config/alacritty/verdurous-dark.yml
+if [[ ! -f ${current_target} ]]; then
+    printf "import:\n  - ${PWD}/verdurous/dark/alacritty.yml\n" > ${current_target}
+    printf "Creating skeleton ${current_target}\n"
+else
+    printf "Skipping skeleton ${current_target}\n"
 fi
-if [[ ! -f ~/.config/alacritty/verdurous-light.yml ]]; then
-    printf "import:\n  - ${PWD}/verdurous/light/alacritty.yml\n" > ~/.config/alacritty/verdurous-light.yml
-    printf "Adding skeleton ~/.config/alacritty/verdurous-light.yml\n"
+current_target=~/.config/alacritty/verdurous-light.yml
+if [[ ! -f ${current_target} ]]; then
+    printf "import:\n  - ${PWD}/verdurous/light/alacritty.yml\n" > ${current_target}
+    printf "Creating skeleton ${current_target}\n"
+else
+    printf "Skipping skeleton ${current_target}\n"
 fi
