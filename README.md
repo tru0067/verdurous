@@ -30,6 +30,11 @@ ready compatibility with many terminal based applications.
 | 14                | `#5BDDD0` | ![#5BDDD0](./gallery/5BDDD0.png) | A shiny bright teal                          |
 | 15                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | A slightly creamy white, a recommendation    |
 
+You can use the provided `deploy.sh` script to create some skeleton config files
+in order to use these themes. These skeleton files generally just source the
+themes in this repo, so you can add any of your own changes to the end of the
+skeleton files and things should work.
+
 ### Gallery
 
 ![Vim with several vertical splits](./gallery/splits.png)
@@ -61,23 +66,3 @@ cd dark/firefox
 zip -r -FS ../verdurous.zip *
 ```
 The `.zip` file can then be uploaded to <https://addons.mozilla.org>.
-
-### Files
-
-##### `deploy.sh`
-A small shell script that will create a skeleton config files in
-`~/.config/nvim/colors/` and `~/.config/alacritty/` that will simply source the
-files in this repo. One can then add any of their own changes to the system's
-files. Must be run from within this directory.
-
-##### `dark/`
-Contains the dark variants of the themes.
-
-##### `light/`
-Contains the light variants of the themes.
-
-##### `gallery/`
-Contains all the images you see here in this readme!
-
-### TODO:
--   Tweak or remove the vim light theme
