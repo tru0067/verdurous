@@ -49,16 +49,16 @@ endfunction
 
 " Set up Normal explicitly
 exe "hi Normal ctermfg=15 guifg=" . s:palette["fg"]
-    \ . " ctermbg=0  guibg=" . s:palette["bg"] . " cterm=none gui=none"
+         \ . " ctermbg=0  guibg=" . s:palette["bg"] . " cterm=none gui=none"
 
 " From the preffered group names (see :help group-name):
 call s:HL("Comment",      "7",    "none", "italic")
 
-call s:HL("Constant",     "2",    "none", "none")
-hi! link String Constant
-hi! link Character Constant
+call s:HL("Constant",     "13",   "none", "none")
+call s:HL("String",       "2",    "none", "none")
+hi! link Character String
 call s:HL("Number",       "10",   "none", "none")
-call s:HL("Boolean",      "5",    "none", "italic")
+call s:HL("Boolean",      "13",   "none", "italic")
 hi! link Float Number
 
 call s:HL("Identifier",   "12",   "none", "none")
@@ -128,7 +128,7 @@ call s:HL("FoldColumn",   "fg",   "8",    "none")
 call s:HL("Folded",       "fg",   "8",    "none")
 call s:HL("IncSearch",    "11",   "none", "reverse")
 call s:HL("LineNr",       "4",    "none", "none")
-call s:HL("MatchParen",   "5",    "none", "none")
+call s:HL("MatchParen",   "9",    "none", "none")
 call s:HL("ModeMsg",      "none", "none", "bold")
 call s:HL("MoreMsg",      "2",    "none", "none")
 call s:HL("NonText",      "8",    "none", "none")
