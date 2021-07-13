@@ -28,3 +28,12 @@ if [[ ! -f ${current_target} ]]; then
 else
     printf "Skipping skeleton ${current_target}\n"
 fi
+# Waybar.
+mkdir -p ~/.config/waybar/colors
+current_target=~/.config/waybar/colors/verdurous-darker.css
+if [[ ! -f ${current_target} ]]; then
+    printf "@import \"${PWD}/themes/waybar/verdurous-darker.css\";\n" > ${current_target}
+    printf "Creating skeleton ${current_target}\n"
+else
+    printf "Skipping skeleton ${current_target}\n"
+fi
