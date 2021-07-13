@@ -62,7 +62,7 @@ The verdurous colorscheme for firefox. Also available at
 Upload note: In order to be consumable by Mozilla's addon system (AMO), this
 theme will need to be 'packaged'. E.g. with:
 ```sh
-cd dark/firefox
+cd themes/firefox/verdurous-darker
 zip -r -FS ../verdurous.zip *
 ```
 The `.zip` file can then be uploaded to <https://addons.mozilla.org>.
