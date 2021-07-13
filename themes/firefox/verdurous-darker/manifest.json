@@ -8,17 +8,17 @@
             "button_background_hover": "#384048",
             "icons": "#F1E6D9",
             "icons_attention": "#5A89AD",
-            "frame": "#1C1C1C",
-            "frame_inactive": "#1C1C1C",
+            "frame": "#1B1C1D",
+            "frame_inactive": "#1B1C1D",
             "ntp_background": "#22262A",
             "ntp_text": "#F1E6D9",
             "popup": "#22262A",
-            "popup_border": "#1C1C1C",
+            "popup_border": "#1B1C1D",
             "popup_highlight": "#808892",
             "popup_highlight_text": "#F1E6D9",
             "popup_text": "#F1E6D9",
             "sidebar": "#22262A",
-            "sidebar_border": "#1C1C1C",
+            "sidebar_border": "#1B1C1D",
             "sidebar_highlight": "#808892",
             "sidebar_highlight_text": "#F1E6D9",
             "sidebar_text": "#F1E6D9",
@@ -28,9 +28,9 @@
             "tab_selected": "#22262A",
             "tab_text": "#F1E6D9",
             "toolbar": "#22262A",
-            "toolbar_bottom_separator": "#1C1C1C",
+            "toolbar_bottom_separator": "#1B1C1D",
             "toolbar_field": "#22262A",
-            "toolbar_field_border": "#1C1C1C",
+            "toolbar_field_border": "#1B1C1D",
             "toolbar_field_border_focus": "#5A89AD",
             "toolbar_field_focus": "#22262A",
             "toolbar_field_highlight": "#5A89AD",
@@ -39,7 +39,7 @@
             "toolbar_field_text_focus": "#808892",
             "toolbar_text": "#F1E6D9",
             "toolbar_top_separator": "#000000",
-            "toolbar_vertical_separator": "#1C1C1C"
+            "toolbar_vertical_separator": "#1B1C1D"
         }
     }
 }
