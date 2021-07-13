@@ -28,9 +28,9 @@ else
 fi
 # Neovim.
 mkdir -p ~/.config/nvim/colors
-current_target=~/.config/nvim/colors/verdurous-dark.vim
+current_target=~/.config/nvim/colors/verdurous-darker.vim
 if [[ ! -f ${current_target} ]]; then
-    printf "source ${PWD}/themes/vim/verdurous-dark.vim\n" > ${current_target}
+    printf "source ${PWD}/themes/vim/verdurous-darker.vim\n" > ${current_target}
     printf "Creating skeleton ${current_target}\n"
 else
     printf "Skipping skeleton ${current_target}\n"

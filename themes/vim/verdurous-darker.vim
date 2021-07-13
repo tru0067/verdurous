@@ -7,7 +7,7 @@ let g:colors_name="verdurous-dark"
 set background=dark
 
 let s:palette={
-    \ "bg": "#22262A",
+    \ "bg": "#1B1C1D",
     \ "fg": "#F1E6D9",
     \ "0":  "#22262A",
     \ "1":  "#BF4052",
@@ -99,8 +99,8 @@ call s:HL("Error",        "1",    "none", "none")
 call s:HL("Todo",         "bg",   "10",   "none")
 
 " Statusline highlight groups.
-call s:HL("User1",        "fg",   "8",    "bold")
-call s:HL("User2",        "fg",   "7",    "bold")
+call s:HL("User1",        "fg",   "0",    "bold")
+call s:HL("User2",        "fg",   "8",    "bold")
 call s:HL("User3",        "fg",   "2",    "bold")
 call s:HL("User4",        "fg",   "4",    "bold")
 call s:HL("User5",        "fg",   "5",    "bold")
@@ -110,12 +110,12 @@ call s:HL("User8",        "bg",   "12",   "bold")
 call s:HL("User9",        "bg",   "fg",   "bold")
 
 " Other common highlight groups (see :help highlight-groups).
-call s:HL("ColorColumn",  "none", "8",    "none")
+call s:HL("ColorColumn",  "none", "0",    "none")
 call s:HL("Conceal",      "7",    "none", "none")
 call s:HL("Cursor",       "none", "none", "reverse")
 call s:HL("CursorIM",     "none", "none", "reverse")
-call s:HL("CursorColumn", "none", "8",    "none")
-call s:HL("CursorLine",   "none", "8",    "none")
+call s:HL("CursorColumn", "none", "0",    "none")
+call s:HL("CursorLine",   "none", "0",    "none")
 call s:HL("CursorLineNR", "4",    "none", "none")
 call s:HL("DiffAdd",      "2",    "none", "none")
 call s:HL("DiffChange",   "3",    "none", "none")
@@ -132,10 +132,10 @@ call s:HL("MatchParen",   "9",    "none", "none")
 call s:HL("ModeMsg",      "none", "none", "bold")
 call s:HL("MoreMsg",      "2",    "none", "none")
 call s:HL("NonText",      "8",    "none", "none")
-call s:HL("NormalFloat",  "fg",   "8",    "none")
+call s:HL("NormalFloat",  "fg",   "0",    "none")
 call s:HL("NormalNC",     "fg",   "none", "none")
-call s:HL("Pmenu",        "fg",   "8",    "none")
-call s:HL("PmenuSbar",    "7",    "8",    "none")
+call s:HL("Pmenu",        "fg",   "0",    "none")
+call s:HL("PmenuSbar",    "7",    "0",    "none")
 call s:HL("PmenuSel",     "fg",   "4",    "none")
 call s:HL("PmenuThumb",   "fg",   "7",    "none")
 call s:HL("Question",     "2",    "none", "none")
@@ -150,8 +150,8 @@ call s:HL("SpellRare",    "none", "none", "undercurl", "guisp=" . s:palette[5])
 call s:HL("StatusLine",   "fg",   "4",    "bold")
 call s:HL("StatusLineNC", "bg",   "4",    "bold")
 call s:HL("Substitute",   "none", "11",   "bold")
-call s:HL("TabLine",      "fg",   "8",    "none")
-call s:HL("TabLineFill",  "fg",   "8",    "none")
+call s:HL("TabLine",      "fg",   "0",    "none")
+call s:HL("TabLineFill",  "fg",   "0",    "none")
 call s:HL("TabLineSel",   "fg",   "7",    "none")
 call s:HL("TermCursor",   "none", "none", "reverse")
 call s:HL("TermCursorNC", "none", "none", "reverse")
@@ -164,7 +164,7 @@ call s:HL("Whitespace",   "8",    "none", "none")
 call s:HL("WildMenu",     "bg",   "4",    "none")
 
 " Other highlight groups.
-call s:HL("FloatBorder",  "7",    "8",    "none")
+call s:HL("FloatBorder",  "8",    "0",    "none")
 
 " Language specific groups.
 call s:HL("markdownCode", "12",   "none", "none")
