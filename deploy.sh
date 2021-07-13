@@ -3,44 +3,23 @@
 # This deploy script is fairly specialized for my usage. You may wish to edit it
 # for your own use.
 
+skeleton() {
+    s=${1}  # Source string.
+    t=${2}  # Target file.
+    mkdir -p $(dirname ${t})
+    if [[ ! -f ${t} ]]; then
+        printf "${s}\n" > ${t}
+        printf "Creating skeleton ${t}\n"
+    else
+        printf "Skipping skeleton ${t}\n"
+    fi
+}
+
 # Alacritty.
-mkdir -p ~/.config/alacritty/colors
-current_target=~/.config/alacritty/colors/verdurous-dark.yml
-if [[ ! -f ${current_target} ]]; then
-    printf "import:\n  - ${PWD}/themes/alacritty/verdurous-dark.yml\n" > ${current_target}
-    printf "Creating skeleton ${current_target}\n"
-else
-    printf "Skipping skeleton ${current_target}\n"
-fi
-current_target=~/.config/alacritty/colors/verdurous-darker.yml
-if [[ ! -f ${current_target} ]]; then
-    printf "import:\n  - ${PWD}/themes/alacritty/verdurous-darker.yml\n" > ${current_target}
-    printf "Creating skeleton ${current_target}\n"
-else
-    printf "Skipping skeleton ${current_target}\n"
-fi
-current_target=~/.config/alacritty/colors/verdurous-light.yml
-if [[ ! -f ${current_target} ]]; then
-    printf "import:\n  - ${PWD}/themes/alacritty/verdurous-light.yml\n" > ${current_target}
-    printf "Creating skeleton ${current_target}\n"
-else
-    printf "Skipping skeleton ${current_target}\n"
-fi
+skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-dark.yml" ~/.config/alacritty/colors/verdurous-dark.yml
+skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-darker.yml" ~/.config/alacritty/colors/verdurous-darker.yml
+skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-light.yml" ~/.config/alacritty/colors/verdurous-light.yml
 # Neovim.
-mkdir -p ~/.config/nvim/colors
-current_target=~/.config/nvim/colors/verdurous-darker.vim
-if [[ ! -f ${current_target} ]]; then
-    printf "source ${PWD}/themes/vim/verdurous-darker.vim\n" > ${current_target}
-    printf "Creating skeleton ${current_target}\n"
-else
-    printf "Skipping skeleton ${current_target}\n"
-fi
+skeleton "source ${PWD}/themes/vim/verdurous-darker.vim" ~/.config/nvim/colors/verdurous-darker.vim
 # Waybar.
-mkdir -p ~/.config/waybar/colors
-current_target=~/.config/waybar/colors/verdurous-darker.css
-if [[ ! -f ${current_target} ]]; then
-    printf "@import \"${PWD}/themes/waybar/verdurous-darker.css\";\n" > ${current_target}
-    printf "Creating skeleton ${current_target}\n"
-else
-    printf "Skipping skeleton ${current_target}\n"
-fi
+skeleton "@import \"${PWD}/themes/waybar/verdurous-darker.css\";" ~/.config/waybar/colors/verdurous-darker.css
