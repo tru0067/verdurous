@@ -24,7 +24,7 @@ ready compatibility with many terminal based applications.
 | 8                 | `#384048` | ![#384048](./gallery/384048.png) | Inspired by Tomb of the Flat Love palette    |
 | 9                 | `#E04F86` | ![#E04F86](./gallery/E04F86.png) | A beautiful hot pink, perfect for highlights |
 | 10                | `#80D468` | ![#80D468](./gallery/80D468.png) | A grassy green                               |
-| 11                | `#FFFFAF` | ![#FFFFAF](./gallery/FFFFAF.png) | A banana-yellow                              |
+| 11                | `#FFE958` | ![#FFE958](./gallery/FFE958.png) | A vibrant yellow                             |
 | 12                | `#87B4E0` | ![#87B4E0](./gallery/87B4E0.png) | A bright silvery blue, reminiscient of Nord  |
 | 13                | `#D668E1` | ![#D668E1](./gallery/D668E1.png) | A heliotrope purple                          |
 | 14                | `#5BDDD0` | ![#5BDDD0](./gallery/5BDDD0.png) | A shiny bright teal                          |
