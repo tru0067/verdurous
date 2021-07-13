@@ -109,7 +109,7 @@ call s:HL("User7",        "bg",   "10",   "bold")
 call s:HL("User8",        "bg",   "12",   "bold")
 call s:HL("User9",        "bg",   "fg",   "bold")
 
-" Other common highlight groups.
+" Other common highlight groups (see :help highlight-groups).
 call s:HL("ColorColumn",  "none", "8",    "none")
 call s:HL("Conceal",      "7",    "none", "none")
 call s:HL("Cursor",       "none", "none", "reverse")
@@ -156,12 +156,14 @@ call s:HL("TabLineSel",   "fg",   "7",    "none")
 call s:HL("TermCursor",   "none", "none", "reverse")
 call s:HL("TermCursorNC", "none", "none", "reverse")
 call s:HL("Title",        "13",   "none", "none")
-call s:HL("VertSplit",    "7",    "8",    "none")
+call s:HL("VertSplit",    "8",    "7",    "none")
 call s:HL("Visual",       "none", "none", "reverse")
 call s:HL("VisualNOS",    "none", "none", "reverse,underline")
 call s:HL("WarningMsg",   "11",   "none", "none")
 call s:HL("Whitespace",   "8",    "none", "none")
 call s:HL("WildMenu",     "bg",   "4",    "none")
 
+" Other highlight groups.
+call s:HL("FloatBorder",  "7",    "8",    "none")
 " TreeSitter.
 hi! link TSFuncBuiltin Function
