@@ -86,7 +86,7 @@ hi! link Typedef      Type
 call s:HL("Special",      "9",    "none", "none")
 hi! link SpecialChar    Special
 hi! link Tag            Special
-hi! link Delimiter      Special
+hi! link Delimiter      Normal
 hi! link SpecialComment Special
 hi! link Debug          Special
 
@@ -162,3 +162,6 @@ call s:HL("VisualNOS",    "none", "none", "reverse,underline")
 call s:HL("WarningMsg",   "11",   "none", "none")
 call s:HL("Whitespace",   "8",    "none", "none")
 call s:HL("WildMenu",     "bg",   "4",    "none")
+
+" TreeSitter.
+hi! link TSFuncBuiltin Function
