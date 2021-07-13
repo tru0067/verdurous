@@ -165,5 +165,9 @@ call s:HL("WildMenu",     "bg",   "4",    "none")
 
 " Other highlight groups.
 call s:HL("FloatBorder",  "7",    "8",    "none")
+
+" Language specific groups.
+call s:HL("markdownCode", "12",   "none", "none")
+
 " TreeSitter.
 hi! link TSFuncBuiltin Function
