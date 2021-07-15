@@ -10,10 +10,10 @@ window#waybar { background: #1B1C1D; }
 
 #pulseaudio { background: #22262A; }
 
-#battery                   { background: #22262A; }
-#battery.warning           { background: #FFE958; }
-#battery.warning.charging  { background: #22262A; }
-#battery.critical          { background: #BF4052; }
-#battery.critical.charging { background: #00AF60; }
+#battery                   { background: #22262A; color: #F1E6D9; }
+#battery.warning           { background: #FFE958; color: #1B1C1D; }
+#battery.warning.charging  { background: #22262A; color: #F1E6D9; }
+#battery.critical          { background: #BF4052; color: #1B1C1D; }
+#battery.critical.charging { background: #00AF60; color: #F1E6D9; }
 
 #clock { background: #384048 }
