@@ -59,10 +59,19 @@ within your `alacritty.yml` to use this theme.
 The verdurous colorscheme for firefox. Also available at
 <https://addons.mozilla.org/.../verdurous>.
 
-Upload note: In order to be consumable by Mozilla's addon system (AMO), this
-theme will need to be 'packaged'. E.g. with:
+Upload note: In order to be consumable by Firefox's addon system, this theme
+will need to be packaged. E.g. with:
 ```sh
 cd themes/firefox/verdurous-darker
-zip -r -FS ../verdurous.zip *
+zip -r -FS ../firefox-verdurous-darker.zip *
 ```
 The `.zip` file can then be uploaded to <https://addons.mozilla.org>.
+
+##### Thunderbird
+Upload note: In order to be consumable by Thunderbird's addon system, this theme
+will need to be packaged. E.g. with:
+```sh
+cd themes/thunderbird/verdurous-darker
+zip -r -FS ../thunderbird-verdurous-darker.xpi *
+```
+The `.xpi` file can then be uploaded to <https://addons.thunderbird.net>.

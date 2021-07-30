@@ -1,0 +1,51 @@
+{
+    "manifest_version": 2,
+    "name": "Verdurous Darker",
+    "description": "A dark, forest theme.",
+    "version": "1.0",
+    "applications": {
+        "gecko": {
+            "id": "thunderbird-verdurous-darker@tru0067"
+        }
+    },
+    "theme": {
+        "colors": {
+            "button_background_active": "#808892",
+            "button_background_hover": "#384048",
+            "frame": "#1B1C1D",
+            "frame_inactive": "#1B1C1D",
+            "icons": "#F1E6D9",
+            "icons_attention": "#5A89AD",
+            "popup": "#384048",
+            "popup_border": "#1B1C1D",
+            "popup_highlight": "#808892",
+            "popup_highlight_text": "#F1E6D9",
+            "popup_text": "#F1E6D9",
+            "sidebar": "#1B1C1D",
+            "sidebar_border": "#000000",
+            "sidebar_highlight": "FF0000",
+            "sidebar_highlight_border": "#5A89AD",
+            "sidebar_highlight_text": "#F1E6D9",
+            "sidebar_text": "#F1E6D9",
+            "tab_background_separator": "#000000",
+            "tab_background_text": "#F1E6D9",
+            "tab_line": "#22262A",
+            "tab_loading": "#808892",
+            "tab_selected": "#22262A",
+            "tab_text": "#F1E6D9",
+            "toolbar": "#22262A",
+            "toolbar_bottom_separator": "#000000",
+            "toolbar_field": "#22262A",
+            "toolbar_field_border": "#000000",
+            "toolbar_field_border_focus": "#5A89AD",
+            "toolbar_field_focus": "#22262A",
+            "toolbar_field_highlight": "#5A89AD",
+            "toolbar_field_highlight_text": "#F1E6D9",
+            "toolbar_field_text": "#808892",
+            "toolbar_field_text_focus": "#808892",
+            "toolbar_text": "#F1E6D9",
+            "toolbar_top_separator": "#000000",
+            "toolbar_vertical_separator": "#1B1C1D"
+        }
+    }
+}
