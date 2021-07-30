@@ -1,6 +1,6 @@
 {
     "manifest_version": 2,
-    "version": "8.2",
+    "version": "8.3",
     "name": "verdurous",
     "theme": {
         "colors": {
@@ -12,7 +12,7 @@
             "frame_inactive": "#1B1C1D",
             "ntp_background": "#22262A",
             "ntp_text": "#F1E6D9",
-            "popup": "#22262A",
+            "popup": "#384048",
             "popup_border": "#1B1C1D",
             "popup_highlight": "#808892",
             "popup_highlight_text": "#F1E6D9",
