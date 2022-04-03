@@ -8,8 +8,9 @@ happy enough to stumble upon while checking that the name `verdurous` was not
 already in use. Additional inspiration was derived from the popular Nord
 colorscheme, as well as from suggestions from friends and family.
 
-This theme makes use of a palette of 16 base colors (see below), this allows for
-ready compatibility with many terminal based applications.
+This theme makes use of a palette of 16 base colors (see below) in addition to a
+base background and foreground color, this allows for ready compatibility with
+many terminal based applications.
 
 | ANSI color number | Hex code  | Color                            | Description                                  |
 |------------------:|:---------:|:--------------------------------:|:---------------------------------------------|
@@ -29,6 +30,8 @@ ready compatibility with many terminal based applications.
 | 13                | `#D668E1` | ![#D668E1](./gallery/D668E1.png) | A heliotrope purple                          |
 | 14                | `#5BDDD0` | ![#5BDDD0](./gallery/5BDDD0.png) | A shiny bright teal                          |
 | 15                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | A slightly creamy white, a recommendation    |
+| bg                | `#1B1C1D` | ![#1B1C1D](./gallery/F1E6D9.png) | A deep dark grey                             |
+| fg                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | (Same as 15)                                 |
 
 You can use the provided `deploy.sh` script to create some skeleton config files
 in order to use these themes. These skeleton files generally just source the
