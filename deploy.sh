@@ -23,3 +23,5 @@ skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-light.yml" ~/.config/al
 skeleton "source ${PWD}/themes/vim/verdurous-darker.vim" ~/.config/nvim/colors/verdurous-darker.vim
 # Waybar.
 skeleton "@import \"${PWD}/themes/waybar/verdurous-darker.css\";" ~/.config/waybar/colors/verdurous-darker.css
+# Zathura.
+skeleton "include ${PWD}/themes/zathura/verdurous-darker" ~/.config/zathura/colors/verdurous-darker
