@@ -1,3 +1,4 @@
+# Girara options.
 set completion-bg "#1B1C1D"
 set completion-fg "#F1E6D9"
 set completion-group-bg "#1B1C1D"
@@ -20,3 +21,15 @@ set notification-warning-fg "#E04F86"
 #set tabbar-focus-fg "#F1E6D9"
 set statusbar-bg "#1B1C1D"
 set statusbar-fg "#F1E6D9"
+
+# Zathura options.
+set highlight-color "#FFE958"
+set highlight-active-color "#00AF60"
+set recolor-darkcolor "#1B1C1D"
+set recolor-lightcolor "#F1E6D9"
+#set render-loading-bg "#1B1C1D"
+#set render-loading-fg "#F1E6D9"
+#set index-bg "#1B1C1D"
+#set index-fg "#F1E6D9"
+#set index-active-bg "#1B1C1D"
+#set index-active-fg "#F1E6D9"
