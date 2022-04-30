@@ -19,6 +19,8 @@ skeleton() {
 skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-dark.yml" ~/.config/alacritty/colors/verdurous-dark.yml
 skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-darker.yml" ~/.config/alacritty/colors/verdurous-darker.yml
 skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-light.yml" ~/.config/alacritty/colors/verdurous-light.yml
+# Kitty.
+skeleton "include ${PWD}/themes/kitty/verdurous-darker.conf" ~/.config/kitty/colors/verdurous-darker.conf
 # Neovim.
 skeleton "source ${PWD}/themes/vim/verdurous-darker.vim" ~/.config/nvim/colors/verdurous-darker.vim
 # Waybar.
