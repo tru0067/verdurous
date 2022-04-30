@@ -50,14 +50,6 @@ The verdurous colorscheme for vim. Set e.g. `colorscheme verdurous-dark` in your
 things to work out of the box. Otherwise, you can use verdurous' 16 color
 palette with your terminal emulator of choice.
 
-##### Alacritty
-The verdurous colorscheme for alacritty. Set e.g.:
-```yml
-import:
-  - ~/.config/alacritty/verdurous-dark.yml
-```
-within your `alacritty.yml` to use this theme.
-
 ##### Firefox
 The verdurous colorscheme for firefox. Also available at
 <https://addons.mozilla.org/.../verdurous>.
@@ -78,3 +70,5 @@ cd themes/thunderbird/verdurous-darker
 zip -r -FS ../thunderbird-verdurous-darker.xpi *
 ```
 The `.xpi` file can then be uploaded to <https://addons.thunderbird.net>.
+
+##### And others!
