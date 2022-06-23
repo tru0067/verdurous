@@ -7,7 +7,7 @@ skeleton() {
     s=${1}  # Source string.
     t=${2}  # Target file.
     mkdir -p $(dirname ${t})
-    if [[ ! -f ${t} ]]; then
+    if [[ ! -a ${t} ]]; then
         printf "${s}\n" > ${t}
         printf "Creating skeleton ${t}\n"
     else
@@ -15,10 +15,24 @@ skeleton() {
     fi
 }
 
+link() {
+    s=${1}  # Source file.
+    t=${2}  # Target file.
+    mkdir -p $(dirname ${t})
+    if [[ ! -a ${t} ]]; then
+        ln -s ${s} ${t}
+        printf "Creating link at  ${t}\n"
+    else
+        printf "Skipping linking  ${t}\n"
+    fi
+}
+
 # Alacritty.
 skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-dark.yml" ~/.config/alacritty/colors/verdurous-dark.yml
 skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-darker.yml" ~/.config/alacritty/colors/verdurous-darker.yml
 skeleton "import:\n  - ${PWD}/themes/alacritty/verdurous-light.yml" ~/.config/alacritty/colors/verdurous-light.yml
+# GIMP.
+link ${PWD}/themes/gimp/verdurous-darker ~/.config/GIMP/2.10/themes/verdurous-darker
 # Kitty.
 skeleton "include ${PWD}/themes/kitty/verdurous-darker.conf" ~/.config/kitty/colors/verdurous-darker.conf
 # Neovim.
