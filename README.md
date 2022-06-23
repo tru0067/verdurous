@@ -29,18 +29,20 @@ many terminal based applications.
 | 12                | `#87B4E0` | ![#87B4E0](./gallery/87B4E0.png) | A bright silvery blue, reminiscient of Nord  |
 | 13                | `#D668E1` | ![#D668E1](./gallery/D668E1.png) | A heliotrope purple                          |
 | 14                | `#5BDDD0` | ![#5BDDD0](./gallery/5BDDD0.png) | A shiny bright teal                          |
-| 15                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | A slightly creamy white, a recommendation    |
+| 15                | `#C7C3BE` | ![#C7C3BE](./gallery/C7C3BE.png) | A blend 5/7ths between `7` and `fg`          |
 | bg                | `#1B1C1D` | ![#1B1C1D](./gallery/1B1C1D.png) | A deep dark grey                             |
-| fg                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | (Same as 15)                                 |
+| fg                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | A slightly creamy white, a recommendation    |
 
-You can use the provided `deploy.sh` script to create some skeleton config files
-in order to use these themes. These skeleton files generally just source the
-themes in this repo, so you can add any of your own changes to the end of the
-skeleton files and things should work.
+If you are on linux you can likely use the provided `deploy.sh` script to create
+some skeleton config files in order to use these themes. These skeleton files
+generally just source the themes in this repo, so you can add any of your own
+changes to the end of the skeleton files and things should work.
 
 ### Gallery
 
 ![Vim with several vertical splits](./gallery/splits.png)
+
+![Firefox in Sway](./gallery/firefox.png)
 
 ### Themes
 
