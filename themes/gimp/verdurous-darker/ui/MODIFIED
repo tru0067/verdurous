@@ -1,6 +1,9 @@
 The images in this folder that have been modified from those in the default Dark
 GIMP Theme include:
 
-menu.png
-menubar.png
-toolbar.png
+bar-h.png           Horizontal scrollbar
+bar-v.png           Vertical scrollbar
+menu.png            Menus (e.g. opening File etc.)
+menubar.png         Top menubar (with File etc.)
+notebook.png        Background + border of tabs (e.g. Tool Options, Layers, etc.)
+toolbar.png         ?
