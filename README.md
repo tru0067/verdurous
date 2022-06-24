@@ -12,26 +12,26 @@ This theme makes use of a palette of 16 base colors (see below) in addition to a
 base background and foreground color, this allows for ready compatibility with
 many terminal based applications.
 
-| ANSI color number | Hex code  | Color                            | Description                                  |
-|------------------:|:---------:|:--------------------------------:|:---------------------------------------------|
-| 0                 | `#22262A` | ![#22262A](./gallery/22262A.png) | A moderate dark grey with a tinge of blue    |
-| 1                 | `#BF4052` | ![#BF4052](./gallery/BF4052.png) | A deep red                                   |
-| 2                 | `#00AF60` | ![#00AF60](./gallery/00AF60.png) | The basis for this theme, a verdant green    |
-| 3                 | `#B57C65` | ![#B57C65](./gallery/B57C65.png) | Brown supersedes orange in this forest theme |
-| 4                 | `#5A89AD` | ![#5A89AD](./gallery/5A89AD.png) | A silvery blue, hailing from the Nord theme  |
-| 5                 | `#8558C7` | ![#8558C7](./gallery/8558C7.png) | A royal purple                               |
-| 6                 | `#109191` | ![#109191](./gallery/109191.png) | A fairly standard aqua                       |
-| 7                 | `#808892` | ![#808892](./gallery/808892.png) | A brighter variant of Tomb                   |
-| 8                 | `#384048` | ![#384048](./gallery/384048.png) | Inspired by Tomb of the Flat Love palette    |
-| 9                 | `#E04F86` | ![#E04F86](./gallery/E04F86.png) | A beautiful hot pink, perfect for highlights |
-| 10                | `#80D468` | ![#80D468](./gallery/80D468.png) | A grassy green                               |
-| 11                | `#FFE958` | ![#FFE958](./gallery/FFE958.png) | A vibrant yellow                             |
-| 12                | `#87B4E0` | ![#87B4E0](./gallery/87B4E0.png) | A bright silvery blue, reminiscient of Nord  |
-| 13                | `#D668E1` | ![#D668E1](./gallery/D668E1.png) | A heliotrope purple                          |
-| 14                | `#5BDDD0` | ![#5BDDD0](./gallery/5BDDD0.png) | A shiny bright teal                          |
-| 15                | `#C7C3BE` | ![#C7C3BE](./gallery/C7C3BE.png) | A blend 5/7ths between `7` and `fg`          |
-| bg                | `#1B1C1D` | ![#1B1C1D](./gallery/1B1C1D.png) | A deep dark grey                             |
-| fg                | `#F1E6D9` | ![#F1E6D9](./gallery/F1E6D9.png) | A slightly creamy white, a recommendation    |
+| ANSI color number | Hex code  | Color                                    | Description                                  |
+|------------------:|:---------:|:----------------------------------------:|:---------------------------------------------|
+| 0                 | `#22262A` | ![#22262A](./gallery/palette/22262A.png) | A moderate dark grey with a tinge of blue    |
+| 1                 | `#BF4052` | ![#BF4052](./gallery/palette/BF4052.png) | A deep red                                   |
+| 2                 | `#00AF60` | ![#00AF60](./gallery/palette/00AF60.png) | The basis for this theme, a verdant green    |
+| 3                 | `#B57C65` | ![#B57C65](./gallery/palette/B57C65.png) | Brown supersedes orange in this forest theme |
+| 4                 | `#5A89AD` | ![#5A89AD](./gallery/palette/5A89AD.png) | A silvery blue, hailing from the Nord theme  |
+| 5                 | `#8558C7` | ![#8558C7](./gallery/palette/8558C7.png) | A royal purple                               |
+| 6                 | `#109191` | ![#109191](./gallery/palette/109191.png) | A fairly standard aqua                       |
+| 7                 | `#808892` | ![#808892](./gallery/palette/808892.png) | A brighter variant of Tomb                   |
+| 8                 | `#384048` | ![#384048](./gallery/palette/384048.png) | Inspired by Tomb of the Flat Love palette    |
+| 9                 | `#E04F86` | ![#E04F86](./gallery/palette/E04F86.png) | A beautiful hot pink, perfect for highlights |
+| 10                | `#80D468` | ![#80D468](./gallery/palette/80D468.png) | A grassy green                               |
+| 11                | `#FFE958` | ![#FFE958](./gallery/palette/FFE958.png) | A vibrant yellow                             |
+| 12                | `#87B4E0` | ![#87B4E0](./gallery/palette/87B4E0.png) | A bright silvery blue, reminiscient of Nord  |
+| 13                | `#D668E1` | ![#D668E1](./gallery/palette/D668E1.png) | A heliotrope purple                          |
+| 14                | `#5BDDD0` | ![#5BDDD0](./gallery/palette/5BDDD0.png) | A shiny bright teal                          |
+| 15                | `#C7C3BE` | ![#C7C3BE](./gallery/palette/C7C3BE.png) | A blend 5/7ths between `7` and `fg`          |
+| bg                | `#1B1C1D` | ![#1B1C1D](./gallery/palette/1B1C1D.png) | A deep dark grey                             |
+| fg                | `#F1E6D9` | ![#F1E6D9](./gallery/palette/F1E6D9.png) | A slightly creamy white, a recommendation    |
 
 If you are on linux you can likely use the provided `deploy.sh` script to create
 some skeleton config files in order to use these themes. These skeleton files
