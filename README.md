@@ -81,6 +81,11 @@ This colorscheme borrows heavily from the default Dark GIMP theme packaged with
 GIMP 2.10. The Dark GIMP theme is copyright 2015-2016 Benoit Touchette, under
 the GPL V3 (or higher), as such, the verdurous version(s) should also be
 considered as licensed under the GPL V3 (or higher), see the license declaration
-in the `gtkrc` file.
+in the `gtkrc` file(s).
 
 ##### And others!
+
+### Licensing
+
+Unless otherwise indicated, the themes included here are licensed under the
+terms of the Unlicense. See `UNLICENSE`.
