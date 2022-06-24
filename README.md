@@ -42,6 +42,8 @@ changes to the end of the skeleton files and things should work.
 
 ![Vim with several vertical splits](./gallery/splits.png)
 
+![GIMP](./gallery/gimp.png)
+
 ![Firefox in Sway](./gallery/firefox.png)
 
 ### Themes
