@@ -171,3 +171,6 @@ call s:HL("markdownCode", "12",   "none", "none")
 
 " TreeSitter.
 hi! link TSFuncBuiltin Function
+" TreeSitter LaTeX.
+hi! link TSFuncMacro Function
+hi! link TSTextReference Identifier
